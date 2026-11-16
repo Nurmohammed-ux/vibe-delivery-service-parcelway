@@ -1,0 +1,24 @@
+{
+  "name": "parcel-delivery-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,client -c cyan,magenta \"npm:dev:api\" \"npm:dev:client\"",
+    "dev:api": "npm run dev --workspace @parcel/server",
+    "dev:client": "npm run dev --workspace @parcel/client",
+    "build": "npm run build --workspace @parcel/client",
+    "test": "npm run test --workspace @parcel/client && npm run test --workspace @parcel/server",
+    "check": "npm run build && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

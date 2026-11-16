@@ -1,0 +1,878 @@
+[
+    {
+        "region":  "Dhaka",
+        "district":  "Dhaka",
+        "city":  "Dhaka",
+        "coveredAreas":  [
+                             "Uttara",
+                             "Dhanmondi",
+                             "Mirpur",
+                             "Mohammadpur"
+                         ],
+        "status":  "active",
+        "latitude":  23.8103,
+        "longitude":  90.4125
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Faridpur",
+        "city":  "Faridpur",
+        "coveredAreas":  [
+                             "Goalanda",
+                             "Boalmari",
+                             "Bhanga"
+                         ],
+        "status":  "active",
+        "latitude":  23.6,
+        "longitude":  89.8333
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Gazipur",
+        "city":  "Gazipur",
+        "coveredAreas":  [
+                             "Tongi",
+                             "Kaliakair",
+                             "Sreepur"
+                         ],
+        "status":  "active",
+        "latitude":  23.9999,
+        "longitude":  90.4203
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Gopalganj",
+        "city":  "Gopalganj",
+        "coveredAreas":  [
+                             "Tungipara",
+                             "Kotalipara",
+                             "Kashiani"
+                         ],
+        "status":  "active",
+        "latitude":  23.0052,
+        "longitude":  89.8266
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Kishoreganj",
+        "city":  "Kishoreganj",
+        "coveredAreas":  [
+                             "Bajitpur",
+                             "Kuliarchar",
+                             "Pakundia"
+                         ],
+        "status":  "active",
+        "latitude":  24.426,
+        "longitude":  90.7829
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Madaripur",
+        "city":  "Madaripur",
+        "coveredAreas":  [
+                             "Rajoir",
+                             "Kalkini",
+                             "Shibchar"
+                         ],
+        "status":  "active",
+        "latitude":  23.17,
+        "longitude":  90.2
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Manikganj",
+        "city":  "Manikganj",
+        "coveredAreas":  [
+                             "Saturia",
+                             "Shivalaya",
+                             "Ghior"
+                         ],
+        "status":  "active",
+        "latitude":  23.8617,
+        "longitude":  89.9767
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Munshiganj",
+        "city":  "Munshiganj",
+        "coveredAreas":  [
+                             "Sreenagar",
+                             "Lohajang",
+                             "Sirajdikhan"
+                         ],
+        "status":  "active",
+        "latitude":  23.55,
+        "longitude":  90.5305
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Narayanganj",
+        "city":  "Narayanganj",
+        "coveredAreas":  [
+                             "Fatullah",
+                             "Siddhirganj",
+                             "Rupganj"
+                         ],
+        "status":  "active",
+        "latitude":  23.62,
+        "longitude":  90.5
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Narsingdi",
+        "city":  "Narsingdi",
+        "coveredAreas":  [
+                             "Palash",
+                             "Belabo",
+                             "Raipura"
+                         ],
+        "status":  "active",
+        "latitude":  23.9226,
+        "longitude":  90.7156
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Rajbari",
+        "city":  "Rajbari",
+        "coveredAreas":  [
+                             "Pangsha",
+                             "Kalukhali",
+                             "Baliakandi"
+                         ],
+        "status":  "active",
+        "latitude":  23.7576,
+        "longitude":  89.65
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Shariatpur",
+        "city":  "Shariatpur",
+        "coveredAreas":  [
+                             "Zajira",
+                             "Naria",
+                             "Gosairhat"
+                         ],
+        "status":  "active",
+        "latitude":  23.22,
+        "longitude":  90.4308
+    },
+    {
+        "region":  "Dhaka",
+        "district":  "Tangail",
+        "city":  "Tangail",
+        "coveredAreas":  [
+                             "Delduar",
+                             "Ghatail",
+                             "Kalihati"
+                         ],
+        "status":  "active",
+        "latitude":  24.25,
+        "longitude":  89.92
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Chattogram",
+        "city":  "Chattogram",
+        "coveredAreas":  [
+                             "Pahartali",
+                             "Kotwali",
+                             "Halishahar",
+                             "Panchlaish",
+                             "Agrabad",
+                             "Chandgaon"
+                         ],
+        "status":  "active",
+        "latitude":  22.3569,
+        "longitude":  91.8123
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Cox\u0027s Bazar",
+        "city":  "Cox\u0027s Bazar",
+        "coveredAreas":  [
+                             "Teknaf",
+                             "Ukhia",
+                             "Chakaria",
+                             "Ramu"
+                         ],
+        "status":  "active",
+        "latitude":  21.4272,
+        "longitude":  92.0165
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Cumilla",
+        "city":  "Cumilla",
+        "coveredAreas":  [
+                             "Laksam",
+                             "Debidwar",
+                             "Chandina",
+                             "Muradnagar"
+                         ],
+        "status":  "active",
+        "latitude":  23.4573,
+        "longitude":  91.1809
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Brahmanbaria",
+        "city":  "Brahmanbaria",
+        "coveredAreas":  [
+                             "Nabinagar",
+                             "Ashuganj",
+                             "Sarail"
+                         ],
+        "status":  "active",
+        "latitude":  23.9571,
+        "longitude":  91.1116
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Chandpur",
+        "city":  "Chandpur",
+        "coveredAreas":  [
+                             "Haimchar",
+                             "Matlab",
+                             "Shahrasti"
+                         ],
+        "status":  "active",
+        "latitude":  23.2333,
+        "longitude":  90.85
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Feni",
+        "city":  "Feni",
+        "coveredAreas":  [
+                             "Parshuram",
+                             "Daganbhuiyan",
+                             "Chhagalnaiya"
+                         ],
+        "status":  "active",
+        "latitude":  23.0167,
+        "longitude":  91.4
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Khagrachari",
+        "city":  "Khagrachari",
+        "coveredAreas":  [
+                             "Ramgarh",
+                             "Mahalchari",
+                             "Dighinala"
+                         ],
+        "status":  "active",
+        "latitude":  23.1,
+        "longitude":  91.9667
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Lakshmipur",
+        "city":  "Lakshmipur",
+        "coveredAreas":  [
+                             "Raipur",
+                             "Ramganj",
+                             "Kamalnagar"
+                         ],
+        "status":  "active",
+        "latitude":  22.9444,
+        "longitude":  90.8415
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Noakhali",
+        "city":  "Noakhali",
+        "coveredAreas":  [
+                             "Begumganj",
+                             "Senbagh",
+                             "Chatkhil"
+                         ],
+        "status":  "active",
+        "latitude":  22.8245,
+        "longitude":  91.0995
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Rangamati",
+        "city":  "Rangamati",
+        "coveredAreas":  [
+                             "Baghaichhari",
+                             "Kaptai",
+                             "Juraichhari"
+                         ],
+        "status":  "active",
+        "latitude":  22.65,
+        "longitude":  92.2
+    },
+    {
+        "region":  "Sylhet",
+        "district":  "Sylhet",
+        "city":  "Sylhet",
+        "coveredAreas":  [
+                             "Zindabazar",
+                             "Ambarkhana",
+                             "Dargah Gate",
+                             "South Surma",
+                             "Subid Bazar",
+                             "Tilagor"
+                         ],
+        "status":  "active",
+        "latitude":  24.8949,
+        "longitude":  91.8662
+    },
+    {
+        "region":  "Sylhet",
+        "district":  "Moulvibazar",
+        "city":  "Moulvibazar",
+        "coveredAreas":  [
+                             "Sreemangal",
+                             "Kamalganj",
+                             "Kulaura",
+                             "Barlekha"
+                         ],
+        "status":  "active",
+        "latitude":  24.4826,
+        "longitude":  91.7832
+    },
+    {
+        "region":  "Sylhet",
+        "district":  "Habiganj",
+        "city":  "Habiganj",
+        "coveredAreas":  [
+                             "Shaistaganj",
+                             "Madhabpur",
+                             "Chunarughat",
+                             "Nabiganj"
+                         ],
+        "status":  "active",
+        "latitude":  24.3745,
+        "longitude":  91.4026
+    },
+    {
+        "region":  "Sylhet",
+        "district":  "Sunamganj",
+        "city":  "Sunamganj",
+        "coveredAreas":  [
+                             "Jagannathpur",
+                             "Chhatak",
+                             "Tahirpur",
+                             "Dowarabazar"
+                         ],
+        "status":  "active",
+        "latitude":  25.0658,
+        "longitude":  91.395
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Rangpur",
+        "city":  "Rangpur",
+        "coveredAreas":  [
+                             "Jahaj Company",
+                             "Pairaband",
+                             "Mahiganj",
+                             "Satmatha",
+                             "Lalbagh"
+                         ],
+        "status":  "active",
+        "latitude":  25.746,
+        "longitude":  89.2752
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Dinajpur",
+        "city":  "Dinajpur",
+        "coveredAreas":  [
+                             "Birampur",
+                             "Fulbari",
+                             "Parbatipur",
+                             "Nawabganj"
+                         ],
+        "status":  "active",
+        "latitude":  25.6275,
+        "longitude":  88.6414
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Thakurgaon",
+        "city":  "Thakurgaon",
+        "coveredAreas":  [
+                             "Pirganj",
+                             "Ranisankail",
+                             "Baliadangi"
+                         ],
+        "status":  "active",
+        "latitude":  26.0333,
+        "longitude":  88.466
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Panchagarh",
+        "city":  "Panchagarh",
+        "coveredAreas":  [
+                             "Tetulia",
+                             "Boda",
+                             "Atwari"
+                         ],
+        "status":  "active",
+        "latitude":  26.3411,
+        "longitude":  88.5658
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Nilphamari",
+        "city":  "Nilphamari",
+        "coveredAreas":  [
+                             "Saidpur",
+                             "Domar",
+                             "Jaldhaka"
+                         ],
+        "status":  "active",
+        "latitude":  25.931,
+        "longitude":  88.856
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Lalmonirhat",
+        "city":  "Lalmonirhat",
+        "coveredAreas":  [
+                             "Hatibandha",
+                             "Patgram",
+                             "Aditmari"
+                         ],
+        "status":  "active",
+        "latitude":  25.9167,
+        "longitude":  89.1662
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Kurigram",
+        "city":  "Kurigram",
+        "coveredAreas":  [
+                             "Nageshwari",
+                             "Bhurungamari",
+                             "Chilmari",
+                             "Ulipur"
+                         ],
+        "status":  "active",
+        "latitude":  25.8054,
+        "longitude":  89.65
+    },
+    {
+        "region":  "Rangpur",
+        "district":  "Gaibandha",
+        "city":  "Gaibandha",
+        "coveredAreas":  [
+                             "Gobindaganj",
+                             "Sundarganj",
+                             "Palashbari",
+                             "Phulchhari"
+                         ],
+        "status":  "active",
+        "latitude":  25.3288,
+        "longitude":  89.5418
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Khulna",
+        "city":  "Khulna",
+        "coveredAreas":  [
+                             "Sonadanga",
+                             "Khalishpur",
+                             "Daulatpur",
+                             "Shib Bari",
+                             "Boyra"
+                         ],
+        "status":  "active",
+        "latitude":  22.8456,
+        "longitude":  89.5672
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Jessore",
+        "city":  "Jessore",
+        "coveredAreas":  [
+                             "Chowgachha",
+                             "Bagharpara",
+                             "Manirampur",
+                             "Abhaynagar"
+                         ],
+        "status":  "active",
+        "latitude":  23.17,
+        "longitude":  89.2167
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Satkhira",
+        "city":  "Satkhira",
+        "coveredAreas":  [
+                             "Tala",
+                             "Assasuni",
+                             "Kalaroa",
+                             "Debhata"
+                         ],
+        "status":  "active",
+        "latitude":  22.7085,
+        "longitude":  89.0809
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Bagerhat",
+        "city":  "Bagerhat",
+        "coveredAreas":  [
+                             "Mongla",
+                             "Rampal",
+                             "Fakirhat",
+                             "Kachua"
+                         ],
+        "status":  "active",
+        "latitude":  22.6516,
+        "longitude":  89.7926
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Magura",
+        "city":  "Magura",
+        "coveredAreas":  [
+                             "Sreepur",
+                             "Mohammadpur",
+                             "Shalikha"
+                         ],
+        "status":  "active",
+        "latitude":  23.4853,
+        "longitude":  89.4194
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Narail",
+        "city":  "Narail",
+        "coveredAreas":  [
+                             "Lohagara",
+                             "Kalia",
+                             "Narail Sadar"
+                         ],
+        "status":  "active",
+        "latitude":  23.1667,
+        "longitude":  89.5
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Jhenaidah",
+        "city":  "Jhenaidah",
+        "coveredAreas":  [
+                             "Harinakunda",
+                             "Shailkupa",
+                             "Kaliganj"
+                         ],
+        "status":  "active",
+        "latitude":  23.5333,
+        "longitude":  89.1833
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Chuadanga",
+        "city":  "Chuadanga",
+        "coveredAreas":  [
+                             "Alamdanga",
+                             "Damurhuda",
+                             "Jibannagar"
+                         ],
+        "status":  "active",
+        "latitude":  23.64,
+        "longitude":  88.85
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Meherpur",
+        "city":  "Meherpur",
+        "coveredAreas":  [
+                             "Mujibnagar",
+                             "Gangni"
+                         ],
+        "status":  "active",
+        "latitude":  23.7623,
+        "longitude":  88.6318
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Rajshahi",
+        "city":  "Rajshahi",
+        "coveredAreas":  [
+                             "Boalia",
+                             "Rajpara",
+                             "Motihar",
+                             "Shah Makhdum",
+                             "Paba"
+                         ],
+        "status":  "active",
+        "latitude":  24.3745,
+        "longitude":  88.6087
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Natore",
+        "city":  "Natore",
+        "coveredAreas":  [
+                             "Baraigram",
+                             "Bagatipara",
+                             "Lalpur",
+                             "Singra"
+                         ],
+        "status":  "active",
+        "latitude":  24.4167,
+        "longitude":  89
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Naogaon",
+        "city":  "Naogaon",
+        "coveredAreas":  [
+                             "Manda",
+                             "Sapahar",
+                             "Porsha",
+                             "Patnitala"
+                         ],
+        "status":  "active",
+        "latitude":  24.8236,
+        "longitude":  88.93
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Chapainawabganj",
+        "city":  "Chapainawabganj",
+        "coveredAreas":  [
+                             "Shibganj",
+                             "Bholahat",
+                             "Gomostapur"
+                         ],
+        "status":  "active",
+        "latitude":  24.5962,
+        "longitude":  88.27
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Pabna",
+        "city":  "Pabna",
+        "coveredAreas":  [
+                             "Ishwardi",
+                             "Bera",
+                             "Chatmohar",
+                             "Atgharia"
+                         ],
+        "status":  "active",
+        "latitude":  24.0037,
+        "longitude":  89.2331
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Sirajganj",
+        "city":  "Sirajganj",
+        "coveredAreas":  [
+                             "Ullapara",
+                             "Kazipur",
+                             "Shahjadpur",
+                             "Belkuchi"
+                         ],
+        "status":  "active",
+        "latitude":  24.45,
+        "longitude":  89.7167
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Joypurhat",
+        "city":  "Joypurhat",
+        "coveredAreas":  [
+                             "Akkelpur",
+                             "Kalai",
+                             "Panchbibi"
+                         ],
+        "status":  "active",
+        "latitude":  25.0953,
+        "longitude":  89.0412
+    },
+    {
+        "region":  "Rajshahi",
+        "district":  "Bogura",
+        "city":  "Bogura",
+        "coveredAreas":  [
+                             "Sariakandi",
+                             "Sonatola",
+                             "Gabtali",
+                             "Sherpur",
+                             "Shajahanpur"
+                         ],
+        "status":  "active",
+        "latitude":  24.85,
+        "longitude":  89.37
+    },
+    {
+        "region":  "Barisal",
+        "district":  "Barisal",
+        "city":  "Barisal",
+        "coveredAreas":  [
+                             "Band Road",
+                             "Cox\u0027s Road",
+                             "Kawnia",
+                             "Rupatali",
+                             "Nathullabad"
+                         ],
+        "status":  "active",
+        "latitude":  22.7,
+        "longitude":  90.3667
+    },
+    {
+        "region":  "Barisal",
+        "district":  "Bhola",
+        "city":  "Bhola",
+        "coveredAreas":  [
+                             "Borhanuddin",
+                             "Tazumuddin",
+                             "Daulatkhan",
+                             "Char Fasson"
+                         ],
+        "status":  "active",
+        "latitude":  22.685,
+        "longitude":  90.6311
+    },
+    {
+        "region":  "Barisal",
+        "district":  "Patuakhali",
+        "city":  "Patuakhali",
+        "coveredAreas":  [
+                             "Kalapara",
+                             "Mirzaganj",
+                             "Dashmina",
+                             "Galachipa"
+                         ],
+        "status":  "active",
+        "latitude":  22.35,
+        "longitude":  90.3333
+    },
+    {
+        "region":  "Barisal",
+        "district":  "Pirojpur",
+        "city":  "Pirojpur",
+        "coveredAreas":  [
+                             "Mathbaria",
+                             "Bhandaria",
+                             "Kawkhali",
+                             "Nazirpur"
+                         ],
+        "status":  "active",
+        "latitude":  22.5833,
+        "longitude":  89.975
+    },
+    {
+        "region":  "Barisal",
+        "district":  "Barguna",
+        "city":  "Barguna",
+        "coveredAreas":  [
+                             "Amtali",
+                             "Patharghata",
+                             "Betagi",
+                             "Bamna"
+                         ],
+        "status":  "active",
+        "latitude":  22.1667,
+        "longitude":  90.1167
+    },
+    {
+        "region":  "Barisal",
+        "district":  "Jhalokati",
+        "city":  "Jhalokati",
+        "coveredAreas":  [
+                             "Nalchity",
+                             "Rajapur",
+                             "Kathalia"
+                         ],
+        "status":  "active",
+        "latitude":  22.6417,
+        "longitude":  90.2167
+    },
+    {
+        "region":  "Mymensingh",
+        "district":  "Mymensingh",
+        "city":  "Mymensingh",
+        "coveredAreas":  [
+                             "Trishal",
+                             "Muktagachha",
+                             "Bhaluka",
+                             "Phulpur",
+                             "Haluaghat"
+                         ],
+        "status":  "active",
+        "latitude":  24.7539,
+        "longitude":  90.3987
+    },
+    {
+        "region":  "Mymensingh",
+        "district":  "Netrokona",
+        "city":  "Netrokona",
+        "coveredAreas":  [
+                             "Khaliajuri",
+                             "Mohanganj",
+                             "Durgapur",
+                             "Barhatta"
+                         ],
+        "status":  "active",
+        "latitude":  24.8833,
+        "longitude":  90.7333
+    },
+    {
+        "region":  "Mymensingh",
+        "district":  "Jamalpur",
+        "city":  "Jamalpur",
+        "coveredAreas":  [
+                             "Madarganj",
+                             "Islampur",
+                             "Sarishabari",
+                             "Baksiganj"
+                         ],
+        "status":  "active",
+        "latitude":  24.9167,
+        "longitude":  89.9333
+    },
+    {
+        "region":  "Mymensingh",
+        "district":  "Sherpur",
+        "city":  "Sherpur",
+        "coveredAreas":  [
+                             "Nakla",
+                             "Nalitabari",
+                             "Jhenaigati",
+                             "Sreebardi"
+                         ],
+        "status":  "active",
+        "latitude":  25.0333,
+        "longitude":  90.0333
+    },
+    {
+        "region":  "Chattogram",
+        "district":  "Bandarban",
+        "city":  "Bandarban",
+        "coveredAreas":  [
+                             "Bandarban Sadar",
+                             "Thanchi",
+                             "Lama",
+                             "Rowangchhari"
+                         ],
+        "status":  "active",
+        "latitude":  22.1958,
+        "longitude":  92.2186
+    },
+    {
+        "region":  "Khulna",
+        "district":  "Kushtia",
+        "city":  "Kushtia",
+        "coveredAreas":  [
+                             "Kushtia Sadar",
+                             "Kumarkhali",
+                             "Khoksa",
+                             "Mirpur",
+                             "Bheramara",
+                             "Daulatpur"
+                         ],
+        "status":  "active",
+        "latitude":  23.9013,
+        "longitude":  89.122
+    }
+]
