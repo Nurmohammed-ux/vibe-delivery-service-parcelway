@@ -12,6 +12,7 @@ const authState = vi.hoisted(() => ({
   refreshAuthSetup: vi.fn(),
   authSetup: null,
   user: null,
+  authMode: "firebase",
 }));
 
 vi.mock("../auth/AuthContext.jsx", () => ({
@@ -19,7 +20,7 @@ vi.mock("../auth/AuthContext.jsx", () => ({
     ...authState,
     status: "ready",
     user: authState.user,
-    authMode: "firebase",
+    authMode: authState.authMode,
     authSetup: authState.authSetup || { status: "ready" },
     error: null,
   }),
@@ -51,6 +52,7 @@ describe("Firebase account access page", () => {
     vi.clearAllMocks();
     authState.authSetup = null;
     authState.user = null;
+    authState.authMode = "firebase";
   });
 
   it("returns a customer to the private route requested before sign-in", async () => {
@@ -88,6 +90,20 @@ describe("Firebase account access page", () => {
     renderLoginPage();
 
     expect(screen.getByText("Current route: /app")).toBeInTheDocument();
+  });
+
+  it("lets a signed-out mock user sign in again as the configured development role", async () => {
+    authState.authMode = "development-mock";
+    authState.signIn.mockResolvedValue(undefined);
+    renderLoginPage();
+
+    fireEvent.click(
+      screen.getByRole("button", { name: "Sign in as development user" }),
+    );
+
+    await waitFor(() => {
+      expect(authState.signIn).toHaveBeenCalledWith({});
+    });
   });
 
   it("registers with email and password without accepting a role from the form", async () => {

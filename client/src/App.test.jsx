@@ -2,17 +2,22 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { App } from "./App.jsx";
 
+const authMocks = vi.hoisted(() => ({
+  user: null,
+  authMode: "not-configured",
+  signOut: vi.fn(),
+}));
+
 vi.mock("./auth/AuthContext.jsx", () => ({
-  useAuth: () => ({
-    user: null,
-    authMode: "not-configured",
-    signOut: vi.fn(),
-  }),
+  useAuth: () => authMocks,
 }));
 
 describe("application theme toggle", () => {
   beforeEach(() => {
     vi.restoreAllMocks();
+    authMocks.user = null;
+    authMocks.authMode = "not-configured";
+    authMocks.signOut.mockReset();
     window.localStorage.removeItem("parcelway-theme");
     document.documentElement.removeAttribute("data-theme");
     document.documentElement.style.colorScheme = "";
@@ -76,6 +81,27 @@ describe("application theme toggle", () => {
     expect(navigation.nextElementSibling).toBe(actions);
     expect(actions.children[0]).toHaveClass("menu-toggle");
     expect(actions.children[1]).toHaveClass("theme-toggle");
+  });
+
+  it("shows sign out for development mock users and calls the sign-out action", () => {
+    authMocks.user = { role: "customer" };
+    authMocks.authMode = "development-mock";
+    render(<App />);
+
+    fireEvent.click(screen.getByRole("button", { name: "Sign out" }));
+
+    expect(authMocks.signOut).toHaveBeenCalledOnce();
+  });
+
+  it("renders a sign-in link after a development mock user signs out", () => {
+    authMocks.authMode = "development-mock";
+    render(<App />);
+
+    expect(screen.getByRole("link", { name: "Sign in" })).toHaveAttribute(
+      "href",
+      "/login",
+    );
+    expect(screen.queryByText(/Development-only mock role/)).not.toBeInTheDocument();
   });
 
   it("restores a saved theme instead of replacing it with the system preference", () => {

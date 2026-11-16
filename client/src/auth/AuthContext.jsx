@@ -193,6 +193,11 @@ export function AuthProvider({ children }) {
   }, [authSetup.status, refresh]);
 
   const signIn = useCallback(async ({ email, password }) => {
+    if (authSetup.status === "development-mock") {
+      await refresh();
+      return;
+    }
+
     if (!firebaseConfigured) {
       throw new Error("Firebase sign-in is not configured.");
     }
@@ -223,6 +228,17 @@ export function AuthProvider({ children }) {
   }, [authSetup.status, refresh]);
 
   const signOut = useCallback(async () => {
+    if (session.authMode === "development-mock") {
+      sessionGeneration.current += 1;
+      setSession({
+        status: "ready",
+        user: null,
+        authMode: "development-mock",
+        error: null,
+      });
+      return;
+    }
+
     if (!firebaseConfigured) {
       throw new Error("Firebase sign-out is not configured.");
     }
@@ -236,7 +252,7 @@ export function AuthProvider({ children }) {
       authMode: "firebase",
       error: null,
     });
-  }, []);
+  }, [session.authMode]);
 
   const getAccessToken = useCallback(async () => {
     if (!firebaseConfigured) return null;

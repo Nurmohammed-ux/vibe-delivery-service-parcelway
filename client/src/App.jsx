@@ -138,7 +138,7 @@ function AppLayout() {
             Book a delivery
           </NavLink>
           {!user ? <NavLink className="nav-link" to="/login">Sign in</NavLink> : null}
-          {user && authMode === "firebase" ? (
+          {user && (authMode === "firebase" || authMode === "development-mock") ? (
             <button
               className="btn nav-signout"
               type="button"
@@ -184,7 +184,7 @@ function AppLayout() {
         </div>
       ) : null}
 
-      {authMode === "development-mock" ? (
+      {user && authMode === "development-mock" ? (
         <div className="dev-banner">
           Development-only mock role: {roleLabels[user.role]}. Not real authentication.
         </div>

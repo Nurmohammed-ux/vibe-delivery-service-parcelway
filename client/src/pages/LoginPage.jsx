@@ -67,6 +67,18 @@ export function LoginPage() {
     }
   }
 
+  async function handleMockSignIn() {
+    setFormError("");
+    setBusy(true);
+    try {
+      await signIn({});
+    } catch (authError) {
+      setFormError(getAuthErrorMessage(authError));
+    } finally {
+      setBusy(false);
+    }
+  }
+
   if (status === "loading") {
     return (
       <section className="content-page narrow-page">
@@ -139,16 +151,33 @@ export function LoginPage() {
         <span className="eyebrow">ACCOUNT ACCESS</span>
         <h1>Development preview</h1>
         <Notice tone="warning">
-          This local mock role is not a real account and cannot sign in to
-          Firebase.
+          This local mock role is not a real account and cannot sign in to Firebase.
+          Reloading the page restores the configured mock role.
         </Notice>
-        <div className="surface-card">
-          <h2>{user.displayName}</h2>
-          <p>Role: <strong>{user.role}</strong></p>
-          <Link className="btn btn-primary" to={user.homePath}>
-            Open role workspace
-          </Link>
-        </div>
+        {user ? (
+          <div className="surface-card">
+            <h2>{user.displayName}</h2>
+            <p>Role: <strong>{user.role}</strong></p>
+            <Link className="btn btn-primary" to={user.homePath}>
+              Open role workspace
+            </Link>
+          </div>
+        ) : (
+          <div className="surface-card">
+            <h2>Mock sign-in</h2>
+            <p>Sign in again as the configured development role.</p>
+            {formError ? <p className="auth-error" role="alert">{formError}</p> : null}
+            <button
+              className="btn btn-primary"
+              type="button"
+              onClick={handleMockSignIn}
+              disabled={busy}
+              aria-busy={busy}
+            >
+              {busy ? "Signing in…" : "Sign in as development user"}
+            </button>
+          </div>
+        )}
         <Link className="text-link back-link" to="/">Back to home</Link>
       </section>
     );
